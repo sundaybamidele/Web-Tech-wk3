@@ -35,6 +35,8 @@ function App() {
           email={email}
           tagline={company.catchPhrase}
         />
+        //tis is changes. s
+        //new changrs. s
       ))}
     </div>
   );

@@ -14,7 +14,7 @@ function App() {
       .catch(setError);
     */
      //Using Fetch
-    fetch("https://jsonplaceholder.typicode.com/users")
+    fetch("http://localhost:8000/welcome.blade.php")
       .then((response) => response.json())
       .then((response) => {
         setContacts(response);

@@ -14,7 +14,7 @@ function App() {
       .catch(setError);
     */
      //Using Fetch
-    fetch("http://localhost:8000/welcome.blade.php")
+    fetch("http://localhost:3000/contact.json")
       .then((response) => response.json())
       .then((response) => {
         setContacts(response);
